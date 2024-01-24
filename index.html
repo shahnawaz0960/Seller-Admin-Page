@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Seller DashBoard</title>
+</head>
+
+<body>
+	<div class="container">
+		<form class="my-form" onsubmit="saveData(event)">
+			<div class="row">
+				<label for="productName">Product Name</label>
+				<input type="text" name="productName" id="productName">
+				<label for="priceOfProduct">Price</label>
+				<input type="number" name="price" id="price">
+				<button type="submit" id="add-product-btn">Add Product</button>
+			</div>
+		</form>
+		<div class="row" id="product-list">
+	
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.4.0/axios.min.js"></script>
+	<script src="/index.js"></script>
+</body>
+
+</html>
